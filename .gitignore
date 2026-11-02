@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model checkpoints & logs
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+checkpoints_real/
+runs/
+logs/
+eval_results/
+eval_results_real/
+*.log
+
+# Datasets & raw inputs
+data/
+datasets_cache/
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.mat
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
